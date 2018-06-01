@@ -106,7 +106,6 @@ li {
   margin-right: 6rem;
   width: 5rem;
   height: 8rem;
-  border: 1px solid blue;
 }
 
 .info-container span {
@@ -119,4 +118,54 @@ li {
 
 .fittings img, .delivery img {
   width: 5rem;
+}
+
+/* Story */
+
+.story-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  width: 10rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-left: 1.25rem;
+
+}
+
+.container {
+  width: 960px;
+  display: flex;
+}
+
+.story {
+  margin-right: 5rem;
+  width: 35%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
